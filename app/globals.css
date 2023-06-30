@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  headers {
+    background: linear-gradient(-45deg, #0e0a0a, #050505, #010013);
+    background-size: 400% 400%;
+    animation: header-gradient 5s ease infinite;
+    -webkit-animation: header-gradient 5s ease infinite;
+}
+
+  @keyframes header-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .title {
+    background: linear-gradient(-45deg, #4775ff, #7ce1ff, #7b5dff);
+    background-size: 400% 400%;
+    animation: title-gradient 5s ease infinite;
+    -webkit-animation: title-gradient 5s ease infinite;
+}
+
+  @keyframes title-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+@layer components {
+
+
+
+  .custom-bounce {
+    animation: custom-bounce 2s infinite;
+    -webkit-animation: custom-bounce 2s infinite;
+}
+
+  @keyframes custom-bounce {
+    0%,
+    100% {
+      transform: translateY(-2%);
+      transform: scale(1.03);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+      -webkit-transform: translateY(-2%);
+      -moz-transform: translateY(-2%);
+      -ms-transform: translateY(-2%);
+      -o-transform: translateY(-2%);
+}
+    50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  .custom-line {
+    animation: custom-line 2s infinite;
+    -webkit-animation: custom-line 2s infinite;
+    rotate: 30deg;
+  }
+
+  @keyframes custom-line {
+    0%,
+    100% {
+      transform: translateY(-2%);
+      transform: scale(1.03);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+      -webkit-transform: scale(1.03);
+      -moz-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+      -o-transform: scale(1.03);
+    }
+    50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+}
