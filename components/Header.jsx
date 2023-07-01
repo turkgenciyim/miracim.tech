@@ -116,7 +116,6 @@ const Header = () => {
                 Full Stack
               </span>{' '}
               <span className='absolute inset-0 z-10 text-transparent skew-x-6 bg-sky-950 skew-y-2 -rotate-2 rounded-2xl'>
-                as
               </span>
             </div>{' '}
             Developer <br /> and UI Designer
