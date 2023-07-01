@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  headers {
-    background: linear-gradient(-45deg, #0e0a0a, #050505, #010013);
+  .about-gradient {
     background-size: 400% 400%;
     animation: header-gradient 5s ease infinite;
     -webkit-animation: header-gradient 5s ease infinite;
