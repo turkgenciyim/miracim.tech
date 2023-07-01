@@ -138,7 +138,6 @@ const Header = () => {
             <Link
               // href={'https://tr.linkedin.com/in/mirac-bakir'}
               href={'/'}
-              target='_blank'
               className='relative flex w-64 py-5 pl-8 pr-20 overflow-hidden text-lg font-bold duration-500 shadow text-sky-50 bg-sky-500 rounded-xl group hover:bg-sky-600 drop-shadow-xl'
             >
               <span className='z-10'>LinkedIn Profile</span>
