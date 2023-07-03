@@ -26,7 +26,7 @@ export default function Home() {
         </span>
       </div>
       <Header />
-       <div className="w-full h-6 bg-gradient-to-r animate-pulse from-blue-500 via-sky-500 to-teal-500" />
+       <div className="w-full h-6 bg-gradient-to-r animate-pulse from-violet-500 via-purple-500 to-indigo-500" />
       <Skills />
        <About />
       <Contact />

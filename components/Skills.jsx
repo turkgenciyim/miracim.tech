@@ -87,31 +87,31 @@ const Skills = () => {
         className="grid m-0 overflow-hidden list-none grid-cols-[repeat(3,_1fr)] sm:grid-cols-[repeat(4,_1fr)] md:grid-cols-[repeat(5,_1fr)] gap-4 p-12 rounded-xl"
       >
         <motion.li variants={introHeaderIcons} className="relative">
-          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold text-white translate-x-1/2 -translate-y-1/2 sm:block bg-blue-500/50 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
+          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold text-white translate-x-1/2 -translate-y-1/2 sm:block bg-violet-500/50 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
             NextJS
           </div>
-          <SiNextdotjs className="w-16 h-16 p-3 transition-all duration-200 shadow cursor-pointer select-none xs:p-4 xs:w-28 xs:h-28 active:scale-95 hover:scale-105 bg-gradient-to-tr from-blue-500 to-cyan-600 rounded-2xl fill-slate-200 hover:fill-white" />
+          <SiNextdotjs className="w-16 h-16 p-3 transition-all duration-200 shadow cursor-pointer select-none xs:p-4 xs:w-28 xs:h-28 active:scale-95 hover:scale-105 bg-gradient-to-tr from-violet-500 to-cyan-600 rounded-2xl fill-slate-200 hover:fill-white" />
         </motion.li>
         <motion.li variants={introHeaderIcons} className="relative">
-          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold text-blue-400 translate-x-1/2 -translate-y-1/2 md:block bg-blue-800/5 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
+          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold translate-x-1/2 -translate-y-1/2 text-violet-400 md:block bg-violet-800/5 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
             ReactJS
           </div>
           <SiReact className="w-16 h-16 p-3 transition-all duration-200 shadow cursor-pointer select-none xs:p-4 xs:w-28 xs:h-28 active:scale-95 hover:scale-105 bg-slate-50/5 hover:bg-white/100 rounded-2xl fill-white hover:fill-cyan-500" />
         </motion.li>
         <motion.li variants={introHeaderIcons} className="relative">
-          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold translate-x-1/2 -translate-y-1/2 md:block text-emerald-500 bg-blue-800/5 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
+          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold translate-x-1/2 -translate-y-1/2 md:block text-emerald-500 bg-violet-800/5 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
             MongoDB
           </div>
           <SiMongodb className="w-16 h-16 p-3 transition-all duration-200 shadow cursor-pointer select-none xs:p-4 xs:w-28 xs:h-28 active:scale-95 hover:scale-105 bg-slate-50/5 hover:bg-white/100 rounded-2xl fill-white hover:fill-emerald-500" />
         </motion.li>
         <motion.li variants={introHeaderIcons} className="relative">
-          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold translate-x-1/2 -translate-y-1/2 md:block text-cyan-500 bg-blue-800/5 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
+          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold translate-x-1/2 -translate-y-1/2 md:block text-cyan-500 bg-violet-800/5 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
             TailwindCSS
           </div>
           <SiTailwindcss className="w-16 h-16 p-3 transition-all duration-200 shadow cursor-pointer select-none xs:p-4 xs:w-28 xs:h-28 active:scale-95 hover:scale-105 bg-slate-50/5 hover:bg-white/100 rounded-2xl fill-white hover:fill-cyan-500" />
         </motion.li>
         <motion.li variants={introHeaderIcons} className="relative">
-          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold translate-x-1/2 -translate-y-1/2 md:block text-amber-500 bg-blue-800/5 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
+          <div className="absolute z-10 hidden h-10 px-3 py-1 font-bold translate-x-1/2 -translate-y-1/2 md:block text-amber-500 bg-violet-800/5 -top-4 right-1/2 rounded-t-2xl drop-shadow-xl">
             ExpressJS
           </div>
           <SiExpress className="w-16 h-16 p-3 transition-all duration-200 shadow cursor-pointer select-none xs:p-4 xs:w-28 xs:h-28 active:scale-95 hover:scale-105 bg-slate-50/5 hover:bg-white/100 rounded-2xl fill-white hover:fill-amber-500" />

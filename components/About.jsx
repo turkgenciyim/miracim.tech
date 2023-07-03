@@ -28,7 +28,7 @@ const About = () => {
           whileInView='show'
           exit='hide'
           variants={introHeaderVariants}
-          className='self-center w-full max-w-xl mx-auto font-sans text-5xl font-bold tracking-tighter text-center text-transparent bg-gradient-to-tr bg-clip-text from-blue-500 via-sky-500 to-teal-500 xs:text-7xl sm:text-8xl'
+          className='self-center w-full max-w-xl mx-auto font-sans text-5xl font-bold tracking-tighter text-center text-transparent bg-gradient-to-tr bg-clip-text from-violet-500 via-purple-500 to-indigo-500 xs:text-7xl sm:text-8xl'
         >
           Ben Kimim? Daha fazlası için oku.
         </motion.h2>
@@ -37,7 +37,7 @@ const About = () => {
             18 yaşına kadar ne yaptım?
           </h2>
           <div className='relative max-w-4xl'>
-            <div className='absolute inset-0 flex items-center justify-center text-3xl font-bold tracking-tight text-center sm:text-4xl text-slate-300 bg-blue-900/10 backdrop-blur-xl rounded-2xl'>
+            <div className='absolute inset-0 flex items-center justify-center text-3xl font-bold tracking-tight text-center sm:text-4xl text-slate-300 bg-violet-900/10 backdrop-blur-xl rounded-2xl'>
               <span className='block p-4 w'>Daha Yazmadım 😨</span>
             </div>
             <p className='p-2 mt-2 mb-1 text-sm transition-all rounded-lg sm:text-base text-slate-50 hover:bg-slate-800/40'>
@@ -78,7 +78,7 @@ const About = () => {
             Hedefim ne? Gerçekten ne istiyorum?
           </h2>
           <div className='relative max-w-8xl'>
-            <div className='absolute inset-0 flex items-center justify-center text-3xl font-bold tracking-tight text-center sm:text-4xl text-slate-300 bg-blue-900/10 backdrop-blur-xl rounded-2xl'>
+            <div className='absolute inset-0 flex items-center justify-center text-3xl font-bold tracking-tight text-center sm:text-4xl text-slate-300 bg-violet-900/10 backdrop-blur-xl rounded-2xl'>
               <span className='block p-4 w'>Daha Yazmadım 😨</span>
             </div>
             <p className='p-2 mt-2 mb-1 text-sm transition-all rounded-lg sm:text-base text-slate-50 hover:bg-slate-800/40'>
