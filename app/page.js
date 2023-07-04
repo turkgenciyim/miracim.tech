@@ -9,7 +9,9 @@ import Status from '@/components/Status';
 export default function Home() {
   return (
     <main className="overflow-hidden bg-slate-950">
-      <div className="relative flex items-center justify-center p-1.5 md:p-2.5 overflow-hidden font-bold text-center text-white rleative bg-gradient-to-tr from-purple-500 to-indigo-500">
+ 
+      <Header />
+       <div className="relative flex items-center justify-center p-1.5 md:p-2.5 overflow-hidden font-bold text-center text-white rleative bg-gradient-to-tr from-purple-500 to-indigo-500">
         <h2 className="z-10 flex-1 text-sm tracking-tight xs:text-base">
           Site yapımında büyük emeği
           {' '}
@@ -25,8 +27,6 @@ export default function Home() {
           🫡
         </span>
       </div>
-      <Header />
-       <div className="w-full h-6 bg-gradient-to-r animate-pulse from-blue-500 via-sky-500 to-teal-500" />
       <Skills />
        <About />
       <Contact />
