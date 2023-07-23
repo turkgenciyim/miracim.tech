@@ -1,21 +1,19 @@
-'use client';
+"use client";
 
-import {AiFillHeart} from 'react-icons/ai';
-import About from '@/components/About';
-import Header from '@/components/Header';
-import Skills from '@/components/Skills';
-import Contact from '@/components/Contact';
-import Status from '@/components/Status';
+import { AiFillHeart } from "react-icons/ai";
+import About from "@/components/About";
+import Header from "@/components/Header";
+import Skills from "@/components/Skills";
+import Contact from "@/components/Contact";
+import Status from "@/components/Status";
 export default function Home() {
   return (
     <main className="overflow-hidden bg-slate-950">
+      <Header />
       <div className="relative flex items-center justify-center p-1.5 md:p-2.5 overflow-hidden font-bold text-center text-white rleative bg-gradient-to-tr from-purple-500 to-indigo-500">
         <h2 className="z-10 flex-1 text-sm tracking-tight xs:text-base">
-          Site yapımında büyük emeği
-          {' '}
-          <br className="md:hidden" />
-          {' '}
-          olan Morena Aka&apos;ya teşekkür ederim.
+          Site yapımında büyük emeği <br className="md:hidden" /> olan Morena
+          Aka&apos;ya teşekkür ederim.
         </h2>
         <button className="px-2 py-1 text-center transition-all border border-dashed rounded-lg md:px-3 border-slate-200/40 hover:bg-white hover:text-purple-500">
           Morenaya <br className="xs:hidden" /> Yazın
@@ -25,10 +23,8 @@ export default function Home() {
           🫡
         </span>
       </div>
-      <Header />
-       <div className="w-full h-6 bg-gradient-to-r animate-pulse from-violet-500 via-purple-500 to-indigo-500" />
       <Skills />
-       <About />
+      <About />
       <Contact />
       {/* <Status/>  */}
     </main>
