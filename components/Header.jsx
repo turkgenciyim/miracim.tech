@@ -113,7 +113,7 @@ const Header = () => {
           <h2 className="my-8 font-sans text-6xl font-bold tracking-tighter text-center text-transparent xs:text-7xl sm:text-8xl bg-clip-text bg-gradient-to-tr from-violet-500 via-indigo-500 to-purple-500">
             <div className="relative inline-block">
               <span className="relative z-20 text-transparent bg-clip-text title">
-                Frontend Stack
+                Frontend
               </span>{" "}
               <span className="absolute inset-0 z-10 text-transparent skew-x-6 bg-violet-950 skew-y-2 -rotate-2 rounded-2xl"></span>
             </div>{" "}
