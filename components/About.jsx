@@ -30,15 +30,15 @@ const About = () => {
           variants={introHeaderVariants}
           className='self-center w-full max-w-xl mx-auto font-sans text-5xl font-bold tracking-tighter text-center text-transparent bg-gradient-to-tr bg-clip-text from-violet-500 via-purple-500 to-indigo-500 xs:text-7xl sm:text-8xl'
         >
-          Ben Kimim? Daha fazlası için oku.
+          Beni tanımak için oku.
         </motion.h2>
         <div className='px-1 py-3 mx-auto space-y-4 shadow-sm sm:px-2 xl:flex-1 rounded-xl'>
           <h2 className='text-3xl font-bold tracking-tight text-center text-white xs:text-4xl sm:text-5xl'>
-            18 yaşına kadar ne yaptım?
+            18 yaşına ne halt ettim?
           </h2>
           <div className='relative max-w-4xl'>
             <div className='absolute inset-0 flex items-center justify-center text-3xl font-bold tracking-tight text-center sm:text-4xl text-slate-300 bg-violet-900/10 backdrop-blur-xl rounded-2xl'>
-              <span className='block p-4 w'>Daha Yazmadım 😨</span>
+              <span className='block p-4'>Daha yazamadım... 😨</span>
             </div>
             <p className='p-2 mt-2 mb-1 text-sm transition-all rounded-lg sm:text-base text-slate-50 hover:bg-slate-800/40'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
@@ -75,11 +75,11 @@ const About = () => {
         </div>
         <div className='px-1 py-3 mx-auto space-y-4 shadow-sm sm:px-2 basis-full rounded-xl'>
           <h2 className='text-3xl font-bold tracking-tight text-center text-white xs:text-4xl sm:text-5xl '>
-            Hedefim ne? Gerçekten ne istiyorum?
+     Hayallerim ne? bu yolda nasıl ilerliyorum?
           </h2>
           <div className='relative max-w-8xl'>
             <div className='absolute inset-0 flex items-center justify-center text-3xl font-bold tracking-tight text-center sm:text-4xl text-slate-300 bg-violet-900/10 backdrop-blur-xl rounded-2xl'>
-              <span className='block p-4 w'>Daha Yazmadım 😨</span>
+              <span className='block p-4'>Daha yazamadım... 😨</span>
             </div>
             <p className='p-2 mt-2 mb-1 text-sm transition-all rounded-lg sm:text-base text-slate-50 hover:bg-slate-800/40'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
