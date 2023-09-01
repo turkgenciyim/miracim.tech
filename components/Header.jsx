@@ -91,7 +91,7 @@ const Header = () => {
       </nav>
       <div className="container relative z-30 py-12 mx-auto">
         <div className="flex flex-col items-center justify-center gap-4 mx-auto max-w-fit">
-          <div className="relative w-56 h-56 overflow-hidden rounded-full shadow-xl">
+          <div className="relative overflow-hidden rounded-full shadow-xl w-72 h-72">
             <Link href={"/"}>
               <Image
                 src={"/me.jpg"}
@@ -110,7 +110,7 @@ const Header = () => {
               Geliştirici, Sosyal Medya <br /> Yöneticisi ve Sigortacı
             </p>
           </div>
-          <h2 className="my-8 font-sans text-6xl font-bold tracking-tighter text-center text-transparent xs:text-7xl sm:text-8xl bg-clip-text bg-gradient-to-tr from-violet-500 via-indigo-500 to-purple-500">
+          <h2 className="pb-4 my-8 font-sans text-6xl font-bold tracking-tighter text-center text-transparent xs:text-7xl sm:text-8xl bg-clip-text bg-gradient-to-tr from-violet-500 via-indigo-500 to-purple-500">
             <div className="relative inline-block">
               <span className="relative z-20 text-transparent bg-clip-text title">
                 Frontend

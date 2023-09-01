@@ -29,17 +29,17 @@ const Showcase = () => {
       whileInView="show"
       exit="hide"
       variants={introHeaderVariants}
-      className="flex flex-col items-center justify-center px-4 space-y-8 font-bold bg-gradient-to-tr from-violet-700 to-purple-800 py-14"
+      className="flex flex-col items-center justify-center px-4 space-y-8 font-bold bg-gradient-to-tr from-violet-700 to-purple-600 py-14"
     >
       <h2 className="px-4 text-4xl font-bold tracking-tighter text-center xs:text-5xl text-slate-100 md:text-6xl lg:text-7xl">
-        Modern? Hızlı? web site mi? <br /> dostummm doğru yerdesin!
+       Modern tasarım yapmak emek ister, bende bu yüzden web sitesi yapıyorum.
       </h2>
       <Link
         href={"https://discord.com/users/619925060387340299"}
         className="flex items-center justify-between gap-8 py-4 pl-10 pr-6 text-lg transition-all bg-white shadow active:ring active:ring-violet-900 active:scale-95 md:py-5 md:pr-8 hover:bg-violet-500 group md:pl-14 rounded-xl"
       >
         <span className="inline-block font-bold tracking-tight uppercase transition-all text-slate-800 group-hover:text-white">
-          Bana yazın
+          İletişime Geç
         </span>
         <BiLogoDiscordAlt className="w-10 h-10 transition-all duration-300 fill-violet-500  group-hover:rotate-[360deg] group-hover:fill-white" />
       </Link>
