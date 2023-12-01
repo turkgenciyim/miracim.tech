@@ -3,11 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    user-select: none;
+  }
   .about-gradient {
     background-size: 400% 400%;
     animation: header-gradient 5s ease infinite;
     -webkit-animation: header-gradient 5s ease infinite;
-}
+  }
 
   @keyframes header-gradient {
     0% {
@@ -26,7 +29,7 @@
     background-size: 400% 400%;
     animation: title-gradient 5s ease infinite;
     -webkit-animation: title-gradient 5s ease infinite;
-}
+  }
 
   @keyframes title-gradient {
     0% {
@@ -42,13 +45,10 @@
 }
 
 @layer components {
-
-
-
   .custom-bounce {
     animation: custom-bounce 2s infinite;
     -webkit-animation: custom-bounce 2s infinite;
-}
+  }
 
   @keyframes custom-bounce {
     0%,
@@ -60,7 +60,7 @@
       -moz-transform: translateY(-2%);
       -ms-transform: translateY(-2%);
       -o-transform: translateY(-2%);
-}
+    }
     50% {
       transform: none;
       animation-timing-function: cubic-bezier(0, 0, 0.2, 1);

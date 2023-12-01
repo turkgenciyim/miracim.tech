@@ -10,21 +10,20 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
-    "axios": "^1.4.0",
+    "axios": "^1.6.2",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
-    "framer-motion": "^10.12.18",
-    "next": "13.4.7",
+    "framer-motion": "^10.16.5",
+    "next": "14.0.3",
     "postcss": "8.4.24",
-    "preact": "^10.15.1",
+    "preact": "^10.19.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.10.1",
-    "request": "^2.88.2",
+    "react-icons": "^4.12.0",
     "spotify-web-api-node": "^5.0.2",
     "tailwindcss": "3.3.2"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9"
+    "@tailwindcss/typography": "^0.5.10"
   }
 }
