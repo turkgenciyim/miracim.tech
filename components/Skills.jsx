@@ -73,7 +73,7 @@ const Skills = () => {
         src={'/skill-pattern.png'}
         fill
         alt='Skills'
-        sizes='10vw, 10vw'
+        sizes='50vw, 50vw'
 
         className='object-cover object-center pointer-events-none'
       />
