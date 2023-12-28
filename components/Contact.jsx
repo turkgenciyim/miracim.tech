@@ -1,50 +1,26 @@
-import React from "react";
-import { motion } from "framer-motion";
-import { BiLogoDiscordAlt } from "react-icons/bi";
-import Link from "next/link";
+import React from 'react'
+import { BiLogoDiscordAlt } from 'react-icons/bi'
+import Link from 'next/link'
 const Showcase = () => {
-  const introHeaderVariants = {
-    hide: {
-      opacity: 0.02,
-      scale: 0.7,
-      x: -200,
-    },
-    show: {
-      opacity: 1,
-      scale: 1,
-      x: 0,
-
-      transition: {
-        type: "spring",
-        stiffness: 500,
-        damping: 20,
-        duration: 1,
-      },
-    },
-  };
   return (
-    <motion.div
-      id="iletisim"
-      initial="hide"
-      whileInView="show"
-      exit="hide"
-      variants={introHeaderVariants}
-      className="flex flex-col items-center justify-center px-4 space-y-8 font-bold bg-gradient-to-tr from-violet-700 to-purple-600 py-14"
+    <div
+      id='iletisim'
+      className='flex flex-col items-center justify-center px-4 space-y-8 bg-no-repeat bg-cover bg-[url("/discord-pattern.png")] bg-right-top font-bold py-14'
     >
-      <h2 className="px-4 text-4xl font-bold tracking-tighter text-center xs:text-5xl text-slate-100 md:text-6xl lg:text-7xl">
-       Modern tasarım yapmak emek ister, bende bu yüzden web sitesi yapıyorum.
+      <h2 className='px-4 text-3xl font-bold tracking-tighter text-center xs:text-4xl text-slate-100 md:text-5xl lg:text-6xl'>
+        Discord üzerinden istersen <br /> sohbet, istersen iş konuşalım.
       </h2>
       <Link
-        href={"https://discord.com/users/619925060387340299"}
-        className="flex items-center justify-between gap-8 py-4 pl-10 pr-6 text-lg transition-all bg-white shadow active:ring active:ring-violet-900 active:scale-95 md:py-5 md:pr-8 hover:bg-violet-500 group md:pl-14 rounded-xl"
+        href={'https://discord.com/users/619925060387340299'}
+        className='flex items-center justify-between gap-8 py-4 pl-10 pr-6 text-lg transition-all shadow bg-blue-500/20 backdrop-blur-sm active:ring active:ring-primary-900 active:scale-95 md:py-5 md:pr-8 hover:bg-primary-400/50 hover:backdrop-blur-none group md:pl-14 rounded-xl'
       >
-        <span className="inline-block font-bold tracking-tight uppercase transition-all text-slate-800 group-hover:text-white">
+        <span className='inline-block font-bold tracking-tight text-white uppercase transition-all group-hover:text-white'>
           İletişime Geç
         </span>
-        <BiLogoDiscordAlt className="w-10 h-10 transition-all duration-300 fill-violet-500  group-hover:rotate-[360deg] group-hover:fill-white" />
+        <BiLogoDiscordAlt className='w-10 h-10 transition-all duration-300 fill-primary-500  group-hover:rotate-[360deg] group-hover:fill-white' />
       </Link>
-    </motion.div>
-  );
-};
+    </div>
+  )
+}
 
-export default Showcase;
+export default Showcase

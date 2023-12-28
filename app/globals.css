@@ -25,7 +25,7 @@
   }
 
   .title {
-    background: linear-gradient(-45deg, #c1b3ff, #914dff, #d8bcff);
+    background: linear-gradient(-45deg, #b3ccff, #4d65ff, #bcc5ff);
     background-size: 400% 400%;
     animation: title-gradient 5s ease infinite;
     -webkit-animation: title-gradient 5s ease infinite;
