@@ -9,7 +9,8 @@ const Header = () => {
         src={'/header-pattern.png'}
         fill
         alt='Header'
-        sizes='30vw, 20vw'
+        sizes='70vw, 70vw'
+        priority
         className='object-cover object-center pointer-events-none'
       />
       <div className='relative z-10 pt-6 pb-12 overflow-hidden group/container'>
