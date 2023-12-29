@@ -16,7 +16,7 @@ const Showcase = () => {
         className='z-10 flex flex-col items-center justify-center px-4 space-y-8 font-bold py-14'
       >
         <h2 className='px-4 text-3xl font-bold tracking-tighter text-center xs:text-4xl text-slate-100 md:text-5xl lg:text-6xl'>
-          Discord üzerinden istersen <br /> sohbet, istersen iş konuşalım.
+          Discord üzerinden istersen <br /> sohbet edelim, istersen iş konuşalım.
         </h2>
         <Link
           href={'https://discord.com/users/619925060387340299'}
